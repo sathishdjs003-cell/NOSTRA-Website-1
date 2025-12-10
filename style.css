@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.nav-left a,
+.nav-right i {
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* BLUE BANNER */
+.banner {
+    background: #247ac0;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner p {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.shop-btn {
+    background: #fff;
+    color: #000;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.shop-btn:hover {
+    opacity: 0.9;
+}
+
+.sale-image{
+    width: 100%;
+}
+
+.sale-image img{
+    width: 100%;
+}
+
+.shop-button{
+    padding: 20px;
+    font-size: large;
+    border-radius: 50px;
+    background-color: #247ac0;
+    color: white;
+
+}
+
+/* footer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    background-color: #247ac0;
+    color: white;
+    padding: 60px 80px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* LEFT PART */
+.footer-left {
+    max-width: 300px;
+}
+
+.logo {
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* SOCIAL ICONS */
+.social-icons i {
+    font-size: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    opacity: 0.7;
+}
+
+/* COLUMNS */
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-col a {
+    color: #d3e3d3;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+.seller{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* BEST SELLER */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 50px;
+    text-align: center;
+}
+
+.product-card {
+    position: relative;
+}
+
+.product-img {
+    width: 250px;
+    height: auto;
+}
+
+.sold-out {
+    background: #c40000;
+    color: white;
+    padding: 6px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.variants {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.variants img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.more {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.new {
+    color: #c40000;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+body {
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.contact-box {
+    width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    background: linear-gradient(to bottom, #ffb547, #e88a1a);
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #ffc15c, #e37c00);
+}
